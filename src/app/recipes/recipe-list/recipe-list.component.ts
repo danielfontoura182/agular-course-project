@@ -11,14 +11,12 @@ export class RecipeListComponent implements OnInit {
     new Recipe(
       'Test Recipe',
       'Just a simples test recipe',
-      'https://img.cybercook.com.br/receitas/974/receita-de-carne-assada-basica-2-840x480.jpeg?q=75',
-      1
+      'https://img.cybercook.com.br/receitas/974/receita-de-carne-assada-basica-2-840x480.jpeg?q=75'
     ),
     new Recipe(
       'Test Recipe',
       'Just a simples test recipe',
-      'https://img.cybercook.com.br/receitas/974/receita-de-carne-assada-basica-2-840x480.jpeg?q=75',
-      1
+      'https://img.cybercook.com.br/receitas/974/receita-de-carne-assada-basica-2-840x480.jpeg?q=75'
     ),
   ];
 
