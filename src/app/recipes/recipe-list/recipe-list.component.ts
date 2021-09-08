@@ -7,7 +7,20 @@ import { Recipe } from '../recipe.model';
   styleUrls: ['./recipe-list.component.css'],
 })
 export class RecipeListComponent implements OnInit {
-  recipes: Recipe[] = [];
+  recipes: Recipe[] = [
+    new Recipe(
+      'Test Recipe',
+      'Just a simples test recipe',
+      'https://img.cybercook.com.br/receitas/974/receita-de-carne-assada-basica-2-840x480.jpeg?q=75',
+      1
+    ),
+    new Recipe(
+      'Test Recipe',
+      'Just a simples test recipe',
+      'https://img.cybercook.com.br/receitas/974/receita-de-carne-assada-basica-2-840x480.jpeg?q=75',
+      1
+    ),
+  ];
 
   constructor() {}
 
